@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 
     Route::post('logout', 'AuthController@logout');
     Route::post('refresh', 'AuthController@refresh');
-    Route::post('/login', [AuthController::class,'login']);
+    Route::post('/auth/login', [AuthController::class,'login']);
     Route::post('/me', [AuthController::class,'me']);
