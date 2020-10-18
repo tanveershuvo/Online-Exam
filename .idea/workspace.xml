@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a459de03-1d12-4c73-9ccb-039dc60963fa" name="Default Changelist" comment="" />
+    <list default="true" id="a459de03-1d12-4c73-9ccb-039dc60963fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/router/Router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/stores/modules/token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/stores/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/stores/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/views/AppFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/views/AppHome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/views/Auth/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/views/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/views/test.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +58,17 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -132,6 +191,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iv81pDw0bVEjjMecED2FgmC3tX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -142,6 +202,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -161,11 +222,26 @@
       <workItem from="1602776493449" duration="608000" />
       <workItem from="1602786236602" duration="19000" />
       <workItem from="1602921242949" duration="3363000" />
+      <workItem from="1602971955012" duration="13734000" />
+      <workItem from="1602986318783" duration="17268000" />
+      <workItem from="1603014021861" duration="452000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="455" y="43" width="446" height="664" key="#com.intellij.ide.util.MemberChooser" timestamp="1602924481854">
@@ -180,10 +256,34 @@
       <screen x="0" y="27" width="1366" height="690" />
     </state>
     <state x="466" y="299" width="424" height="153" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.27.1366.690@0.27.1366.690" timestamp="1602922977848" />
-    <state x="458" y="129" key="FileChooserDialogImpl" timestamp="1602922894745">
+    <state x="292" y="137" width="771" height="476" key="EditFileWatcherDialog" timestamp="1602974444387">
       <screen x="0" y="27" width="1366" height="690" />
     </state>
-    <state x="458" y="129" key="FileChooserDialogImpl/0.27.1366.689@0.27.1366.689" timestamp="1602786106922" />
-    <state x="458" y="129" key="FileChooserDialogImpl/0.27.1366.690@0.27.1366.690" timestamp="1602922894745" />
+    <state x="292" y="137" width="771" height="476" key="EditFileWatcherDialog/0.27.1366.690@0.27.1366.690" timestamp="1602974444387" />
+    <state x="458" y="129" key="FileChooserDialogImpl" timestamp="1603004381904">
+      <screen x="0" y="27" width="1366" height="689" />
+    </state>
+    <state x="458" y="129" key="FileChooserDialogImpl/0.27.1366.689@0.27.1366.689" timestamp="1603004381904" />
+    <state x="458" y="129" key="FileChooserDialogImpl/0.27.1366.690@0.27.1366.690" timestamp="1602991352564" />
+    <state width="1316" height="144" key="GridCell.Tab.0.bottom" timestamp="1602972902020">
+      <screen x="0" y="27" width="1366" height="690" />
+    </state>
+    <state width="1316" height="144" key="GridCell.Tab.0.bottom/0.27.1366.690@0.27.1366.690" timestamp="1602972902020" />
+    <state width="1316" height="144" key="GridCell.Tab.0.center" timestamp="1602972902019">
+      <screen x="0" y="27" width="1366" height="690" />
+    </state>
+    <state width="1316" height="144" key="GridCell.Tab.0.center/0.27.1366.690@0.27.1366.690" timestamp="1602972902019" />
+    <state width="1316" height="144" key="GridCell.Tab.0.left" timestamp="1602972902019">
+      <screen x="0" y="27" width="1366" height="690" />
+    </state>
+    <state width="1316" height="144" key="GridCell.Tab.0.left/0.27.1366.690@0.27.1366.690" timestamp="1602972902019" />
+    <state width="1316" height="144" key="GridCell.Tab.0.right" timestamp="1602972902019">
+      <screen x="0" y="27" width="1366" height="690" />
+    </state>
+    <state width="1316" height="144" key="GridCell.Tab.0.right/0.27.1366.690@0.27.1366.690" timestamp="1602972902019" />
+    <state x="345" y="37" width="674" height="678" key="search.everywhere.popup" timestamp="1603010178905">
+      <screen x="0" y="27" width="1366" height="689" />
+    </state>
+    <state x="345" y="37" width="674" height="678" key="search.everywhere.popup/0.27.1366.689@0.27.1366.689" timestamp="1603010178905" />
   </component>
 </project>
