@@ -1,8 +1,27 @@
 <template>
     <v-app>
         <navbar v-if="isLoggedIn" />
-        <v-content>
+        <v-main>
             <v-container class="px-4 py-0 fill-height" fluid>
+                <v-snackbar
+                    v-model="snackbar.showing"
+                    :bottom="true"
+                    :right="true"
+                    :timeout="5000"
+                    :color="snackbar.color"
+                >
+                    {{ snackbar.text }}
+                    <template v-slot:action="{ attrs }">
+                        <v-btn
+                            dark
+                            text
+                            v-bind="attrs"
+                            @click="snackbar.showing = false"
+                        >
+                            Close
+                        </v-btn>
+                    </template>
+                </v-snackbar>
                 <v-row class="fill-height">
                     <v-col>
                         <transition name="fade">
@@ -11,7 +30,7 @@
                     </v-col>
                 </v-row>
             </v-container>
-        </v-content>
+        </v-main>
     <app-footer/>
     </v-app>
 </template>
@@ -24,9 +43,9 @@ export default {
     computed: {
         ...mapGetters({
             isLoggedIn: 'IS_LOGGED_IN',
-            alert:'GET_ALERT'
+            snackbar: 'GET_SNACKBAR'
         }),
-    },
+    }
 }
 </script>
 <style>
