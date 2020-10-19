@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\QuestionController;
+use App\Http\Controllers\SubjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 */
 
     Route::post('logout', 'AuthController@logout');
-    Route::post('refresh', 'AuthController@refresh');
+    Route::get('/all-questions', [QuestionController::class,'fetch_all_questions']);
+    Route::post('/add-ques-to-sub', [QuestionController::class,'add_ques_to_sub']);
+    Route::get('/all-subjects', [SubjectController::class,'fetch_all_subject']);
     Route::post('/auth/login', [AuthController::class,'login']);
     Route::post('/me', [AuthController::class,'me']);

@@ -22,12 +22,10 @@ import {mapGetters} from "vuex";
 export default {
     components:{AppFooter,Navbar},
     computed: {
-        ...mapGetters([
-            'IS_LOGGED_IN'
-        ]),
-        isLoggedIn: function() {
-            return this.$store.getters.IS_LOGGED_IN;
-        }
+        ...mapGetters({
+            isLoggedIn: 'IS_LOGGED_IN',
+            alert:'GET_ALERT'
+        }),
     },
 }
 </script>

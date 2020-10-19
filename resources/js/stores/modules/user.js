@@ -24,10 +24,10 @@ export default {
         },
         SET_IS_LOGGED_IN:(state, payload)=>{
             state.isLoggedIn = payload;
-        }
+        },
     },
     actions: {
-         LOGIN: ({commit}, payload) => {
+        LOGIN: ({commit}, payload) => {
             return new Promise((resolve, reject) => {
                 let msg;
                 axios
@@ -40,6 +40,10 @@ export default {
                                 commit("SET_TOKEN", access_token);
                                 commit("SET_USER_NAME", user_name);
                                 commit("SET_IS_LOGGED_IN", true);
+                                axios.defaults.headers.common = {
+                                    'Content-Type': 'application/json',
+                                    'Authorization': 'Bearer'+ localStorage.getItem('token'),
+                                };
                                 resolve(true);
                             }
                             return Promise.reject(msg = 'Bad Request!');

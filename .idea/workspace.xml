@@ -23,32 +23,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a459de03-1d12-4c73-9ccb-039dc60963fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/router/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/stores/modules/token.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/stores/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/stores/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/views/AppFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/views/AppHome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/views/Auth/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/views/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/views/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/views/test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SubjectController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Subject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_19_023321_create_subjects_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_19_115048_create_questions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/QuestionSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/SubjectSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/stores/modules/question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/stores/modules/subject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/stores/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/stores/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/stores/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/stores/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/AppHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/AppHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,13 +190,18 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iv81pDw0bVEjjMecED2FgmC3tX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -225,6 +229,9 @@
       <workItem from="1602971955012" duration="13734000" />
       <workItem from="1602986318783" duration="17268000" />
       <workItem from="1603014021861" duration="452000" />
+      <workItem from="1603019090912" duration="6389000" />
+      <workItem from="1603052101466" duration="16926000" />
+      <workItem from="1603073321302" duration="13647000" />
     </task>
     <servers />
   </component>
@@ -243,15 +250,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="455" y="43" width="446" height="664" key="#com.intellij.ide.util.MemberChooser" timestamp="1602924481854">
+    <state x="455" y="43" width="446" height="664" key="#com.intellij.ide.util.MemberChooser" timestamp="1603080881541">
       <screen x="0" y="27" width="1366" height="690" />
     </state>
-    <state x="455" y="43" width="446" height="664" key="#com.intellij.ide.util.MemberChooser/0.27.1366.690@0.27.1366.690" timestamp="1602924481854" />
-    <state x="416" y="130" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602924380190">
+    <state x="455" y="43" width="446" height="664" key="#com.intellij.ide.util.MemberChooser/0.27.1366.690@0.27.1366.690" timestamp="1603080881541" />
+    <state x="416" y="130" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603075146289">
       <screen x="0" y="27" width="1366" height="690" />
     </state>
-    <state x="416" y="130" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.690@0.27.1366.690" timestamp="1602924380190" />
+    <state x="416" y="130" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.690@0.27.1366.690" timestamp="1603075146289" />
     <state x="466" y="299" width="424" height="153" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1602922977848">
       <screen x="0" y="27" width="1366" height="690" />
     </state>
@@ -260,11 +270,11 @@
       <screen x="0" y="27" width="1366" height="690" />
     </state>
     <state x="292" y="137" width="771" height="476" key="EditFileWatcherDialog/0.27.1366.690@0.27.1366.690" timestamp="1602974444387" />
-    <state x="458" y="129" key="FileChooserDialogImpl" timestamp="1603004381904">
-      <screen x="0" y="27" width="1366" height="689" />
+    <state x="458" y="129" key="FileChooserDialogImpl" timestamp="1603068738080">
+      <screen x="0" y="27" width="1366" height="690" />
     </state>
     <state x="458" y="129" key="FileChooserDialogImpl/0.27.1366.689@0.27.1366.689" timestamp="1603004381904" />
-    <state x="458" y="129" key="FileChooserDialogImpl/0.27.1366.690@0.27.1366.690" timestamp="1602991352564" />
+    <state x="458" y="129" key="FileChooserDialogImpl/0.27.1366.690@0.27.1366.690" timestamp="1603068738080" />
     <state width="1316" height="144" key="GridCell.Tab.0.bottom" timestamp="1602972902020">
       <screen x="0" y="27" width="1366" height="690" />
     </state>

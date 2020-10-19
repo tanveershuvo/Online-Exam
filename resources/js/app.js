@@ -1,11 +1,18 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import axios from 'axios'
-import store from "./stores/store";
-
+import store from "./stores/store"
 window.axios = axios
-axios.defaults.baseURL = 'http://onlineexam.test/api/v1/'
-const cons_url = 'http://onlineexam.test/api/v1/'
+let api_url = process.env.MIX_API_URL;
+
+axios.defaults.baseURL = api_url+'/api/v1/'
+const cons_url = api_url+'/api/v1/'
+
+axios.defaults.headers.common = {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer'+ localStorage.getItem('token'),
+};
+
 Vue.use(Vuetify, axios);
 const vuetify = new Vuetify();
 const opts = {}
