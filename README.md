@@ -21,7 +21,7 @@ The app uses a number of open source projects to work properly:
 * Npm 6.14.8
 * Mysql 15.1
 
-###Installation
+### Installation
 1. Download code from github master branch
 2. Run  `Composer Install`
 3. Edit **.env** file. Add database information.
