@@ -23,23 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a459de03-1d12-4c73-9ccb-039dc60963fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/stores/modules/snackbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/views/ExamPaperList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jwt.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jwt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/router/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/stores/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/stores/modules/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/stores/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/stores/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/views/AppHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/AppHome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/views/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/views/test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/AssignExamPaper.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +281,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/resources/js/views/Home.vue</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

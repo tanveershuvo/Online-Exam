@@ -12,9 +12,9 @@ The app uses a number of open source projects to work properly:
 * Laravel 8 - the most trendy php framework for the backend!
 * Tymon/JWT - JSON Web Token Authentication for Laravel!
 
-#Setup and Environment
+# Setup and Environment
 
-###Pre-requisite
+### Pre-requisite
 * Composer 2.0
 * Apache2/Xampp
 * Node v10.19.0
@@ -28,9 +28,9 @@ The app uses a number of open source projects to work properly:
 4. Add `MIX_API_URL=http://127.0.0.1:8000` to .env file
 5. Run `php artisan migrate:fresh --seed`
 6. Run `npm run dev`
-7.To start development server, run `php artisan serve`
+7. To start development server, run `php artisan serve`
 
-###Credentials for login
+### Credentials for login
 User Email| Password | Role
 ------------ | ------------- | -------------
 tanveershuvos@gmail.com | 123456 | Admin
