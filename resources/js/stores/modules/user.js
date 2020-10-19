@@ -63,6 +63,7 @@ export default {
             localStorage.removeItem('token')
             commit("SET_IS_LOGGED_IN", false);
             return true;
-        }
+        },
+
     }
 }

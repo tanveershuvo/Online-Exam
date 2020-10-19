@@ -1,8 +1,7 @@
 <template>
     <div>
         <v-card class="mb-6 stick">
-
-                        <v-row>
+            <v-row>
                             <v-col
                                 class="d-flex"
                                 cols="12"
@@ -38,7 +37,7 @@
                                 <v-btn
                                     depressed
                                     :disabled="data.queId.length < 1 || data.subId === null"
-                                    color="primary"
+                                    color="success"
                                     class="mt-4"
                                     @click="addQtoSub"
                                 >
@@ -46,7 +45,7 @@
                                 </v-btn>
                             </v-col>
                         </v-row>
-            </v-card>
+        </v-card>
         <v-card>
             <v-flex v-for="question in filteredList"
                   :key="question.id" class="pa-4">
@@ -88,6 +87,11 @@ export default {
         ...mapActions(['ALL_SUBJECTS','ALL_QUESTIONS']),
         addQtoSub(){
             this.$store.dispatch("ADD_QUES_TO_SUB",this.data).then(success => {
+                this.$store.dispatch("SNACKBAR",{
+                    text:'Question added to subject successfully',
+                    color:'success',
+                    showing:true
+                })
                 this.ALL_QUESTIONS()
         })
         }

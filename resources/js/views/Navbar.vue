@@ -51,8 +51,8 @@ export default {
         sidebarMenu : true,
         user_name:'',
         items:[
-            { title:'Home',to:'/home', icon: 'mdi-view-dashboard'},
-            { title:'Test',to:'/test'},
+            { title:'All Questions',to:'/home', icon: 'mdi-view-dashboard'},
+            { title:'Exam Paper',to:'/exam-papers',icon: 'mdi-file-document'},
         ]
     }),
     methods:{
