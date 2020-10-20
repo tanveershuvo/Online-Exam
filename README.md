@@ -24,11 +24,12 @@ The app uses a number of open source projects to work properly:
 ### Installation
 1. Download code from github master branch
 2. Run  `Composer Install`
-3. Edit **.env** file. Add database information.
-4. Add `MIX_API_URL=http://127.0.0.1:8000` to .env file
-5. Run `php artisan migrate:fresh --seed`
-6. Run `npm run dev`
-7. To start development server, run `php artisan serve`
+3. Copy .env.example file and rename as .env
+4. Edit **.env** file. Add database information.
+5. Add `MIX_API_URL=http://127.0.0.1:8000` to .env file
+6. Run `php artisan migrate:fresh --seed`
+7. Run `npm run dev`
+8. To start development server, run `php artisan serve`
 
 ### Credentials for login
 User Email| Password | Role
