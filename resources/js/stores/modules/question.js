@@ -13,10 +13,6 @@ export default {
         SET_QUESTIONS:(state, payload)=>{
             state.questions = payload;
         },
-        REMOVE_ASSIGNED_QUESTION:(state, id)=>{
-            let index = state.questions.findIndex(question => question.id === id)
-            state.questions.splice(index, 1)
-        }
     },
     actions: {
         ALL_QUESTIONS: ({commit}) => {
@@ -34,13 +30,28 @@ export default {
                     });
             });
         },
-        ADD_QUES_TO_SUB:({commit},data) => {
+        ADD_QUES_TO_SUB:({dispatch,commit},data) => {
             return new Promise((resolve, reject) => {
                 axios
                     .post('/add-ques-to-sub',{data})
                     .then(({data, status}) => {
                         if (status === 200) {
-                            commit("REMOVE_ASSIGNED_QUESTION", data);
+                            dispatch('ALL_QUESTIONS')
+                            resolve(true)
+                        }
+                    })
+                    .catch(error => {
+                        reject(error)
+                    });
+            });
+        },
+        ADD_QUESTION_OPTION:({dispatch,commit},data) => {
+            return new Promise((resolve, reject) => {
+                axios
+                    .post('/add-question-options',{data})
+                    .then(({data, status}) => {
+                        if (status === 200) {
+                            dispatch('ALL_QUESTIONS')
                             resolve(true)
                         }
                     })

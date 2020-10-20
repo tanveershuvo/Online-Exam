@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
     Route::post('logout', 'AuthController@logout');
     Route::get('/all-questions', [QuestionController::class,'fetch_all_questions']);
     Route::post('/add-ques-to-sub', [QuestionController::class,'add_ques_to_sub']);
+    Route::post('/add-question-options', [QuestionController::class,'add_question_options']);
     Route::get('/all-subjects', [SubjectController::class,'fetch_all_subject']);
     Route::post('/auth/login', [AuthController::class,'login']);
     Route::post('/me', [AuthController::class,'me']);

@@ -53,6 +53,7 @@ export default {
         items:[
             { title:'All Questions',to:'/home', icon: 'mdi-view-dashboard'},
             { title:'Exam Paper',to:'/exam-papers',icon: 'mdi-file-document'},
+            { title:'Add Question',to:'/add-question',icon: 'mdi-file-document'},
         ]
     }),
     methods:{

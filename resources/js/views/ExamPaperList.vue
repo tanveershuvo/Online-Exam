@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <v-card color="grey lighten-4">
     <v-btn
         color="success"
-        class="my-4"
+        class="my-4 ml-4"
     @click="exampaper">
         Create New ExamPaper
     </v-btn>
@@ -12,9 +12,10 @@
         :items-per-page="5"
         item-key="name"
         class="elevation-1 test"
+        color="grey lighten-4"
     ></v-data-table>
 
-    </div>
+    </v-card>
 </template>
 
 <script>
@@ -82,7 +83,5 @@ export default {
 </script>
 
 <style scoped>
-.test{
-    background-color: #ebeaf5 ;
-}
+
 </style>

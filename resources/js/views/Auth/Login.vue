@@ -57,6 +57,7 @@
 import { required, email, min } from 'vee-validate/dist/rules'
 import { extend, ValidationObserver, ValidationProvider, setInteractionMode } from 'vee-validate'
 import {mapGetters} from "vuex";
+import axios from "axios";
 
 setInteractionMode("eager");
 
@@ -92,6 +93,7 @@ export default {
          login() {
             this.$store.dispatch("LOGIN", this.form)
                 .then(success => {
+
                     this.$router.push("/home")
                 })
                 .catch(error => {

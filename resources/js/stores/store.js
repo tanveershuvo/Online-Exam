@@ -9,7 +9,7 @@ import Snackbar from "./modules/snackbar";
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
     modules: {
         User,
         Questions,
@@ -17,3 +17,5 @@ export default new Vuex.Store({
         Snackbar,
     }
 });
+
+export default store

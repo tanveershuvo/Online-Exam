@@ -6,11 +6,13 @@ import Login from '../views/Auth/Login'
 import Home from '../views/Home'
 import ExamPaperList from '../views/ExamPaperList'
 import AssignExamPaper from '../views/AssignExamPaper'
+import AddQuestion from '../views/AddQuestion'
 const routes = [
     { path: '/', component: Login , name:'Login'},
     { path: '/home', component: Home , name:'Home'},
     { path: '/exam-papers', component: ExamPaperList , name:'ExamPapers'},
     { path: '/assign-exam-paper', component: AssignExamPaper , name:'AssignExamPaper'},
+    { path: '/add-question', component: AddQuestion , name:'AddQuestion'},
     { path: '/*', component: Home , name:''},
 ]
 const router = new VueRouter({

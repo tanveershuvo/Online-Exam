@@ -2,49 +2,53 @@
     <div>
         <v-card class="mb-6 stick">
             <v-row>
-                            <v-col
-                                class="d-flex"
-                                cols="12"
-                                sm="6"
-                            >
-                                <v-text-field
-                                    label="Search Question"
-                                    type="search"
-                                    prepend-icon="mdi-magnify"
-                                    v-model="search"
-                                >
-                                </v-text-field>
-                            </v-col>
-                            <v-col
-                                class="d-flex"
-                                cols="12"
-                                sm="4"
-                            >
-                                <v-select
-                                    :items="subjects"
-                                    label="Select Subject"
-                                    item-text="subject_name"
-                                    item-value="id"
-                                    name="subjects"
-                                    v-model="data.subId"
-                                ></v-select>
-                            </v-col>
-                            <v-col
-                                class="d-flex"
-                                cols="12"
-                                sm="2"
-                            >
-                                <v-btn
-                                    depressed
-                                    :disabled="data.queId.length < 1 || data.subId === null"
-                                    color="success"
-                                    class="mt-4"
-                                    @click="addQtoSub"
-                                >
-                                    Add Q to Sub
-                                </v-btn>
-                            </v-col>
-                        </v-row>
+                <v-col
+                    class="d-flex"
+                    cols="12"
+                    sm="5"
+                >
+                    <v-text-field
+                        label="Search Question"
+                        type="search"
+                        prepend-icon="mdi-magnify"
+                        v-model="search"
+                        outlined
+                        hide-details
+                    >
+                    </v-text-field>
+                </v-col>
+                <v-col
+                    class="d-flex"
+                    cols="12"
+                    sm="4"
+                >
+                    <v-select
+                        :items="subjects"
+                        label="Select Subject"
+                        item-text="subject_name"
+                        item-value="id"
+                        name="subjects"
+                        v-model="data.subId"
+                        outlined
+                        hide-details
+                    ></v-select>
+                </v-col>
+                <v-col
+                    class="d-flex"
+                    cols="12"
+                    sm="3"
+                >
+                    <v-btn
+                        depressed
+                        :disabled="data.queId.length < 1 || data.subId === null"
+                        color="success"
+                        class="mt-2"
+                        @click="addQtoSub"
+                    >
+                        Add Ques to Subject
+                    </v-btn>
+                </v-col>
+            </v-row>
         </v-card>
         <v-card>
             <v-flex v-for="question in filteredList"
@@ -92,7 +96,6 @@ export default {
                     color:'success',
                     showing:true
                 })
-                this.ALL_QUESTIONS()
         })
         }
     },

@@ -15,11 +15,15 @@ class SubjectSeeder extends Seeder
      */
     public function run()
     {
-        $faker = Factory::create();
-        for($i = 0; $i < 10; $i++) {
-            Subject::create([
-                'subject_name' => $faker->text(10),
-            ]);
-        }
+        Subject::create([
+            'subject_name' => 'General Knowledge',
+        ]);
+        Subject::create([
+            'subject_name' => 'Math',
+        ]);
+        Subject::create([
+            'subject_name' => 'Programming',
+        ]);
+
     }
 }

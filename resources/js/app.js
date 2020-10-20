@@ -13,21 +13,23 @@ axios.defaults.headers.common = {
     'Authorization': 'Bearer'+ localStorage.getItem('token'),
 };
 
-Vue.use(Vuetify, axios);
-const vuetify = new Vuetify();
+Vue.use(Vuetify, axios)
+const vuetify = new Vuetify()
 const opts = {}
 const vi = new Vuetify(opts)
 export default {vi,cons_url}
 
-Vue.component('AppHome', require('./views/AppHome.vue').default);
+Vue.component('AppHome', require('./views/AppHome.vue').default)
 
 import router from './router/Router.js'
+
 const app = new Vue({
     el: '#app',
     vuetify,
     router,
-    store
-});
+    store,
+
+})
 
 
 

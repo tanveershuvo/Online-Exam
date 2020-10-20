@@ -23,7 +23,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a459de03-1d12-4c73-9ccb-039dc60963fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/OptionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Option.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_20_014559_create_options_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/views/AddQuestion.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/QuestionSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/SubjectSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/SubjectSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/router/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/stores/modules/question.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/stores/modules/question.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/stores/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/stores/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/AssignExamPaper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/AssignExamPaper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/Auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/Auth/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/ExamPaperList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/ExamPaperList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -210,6 +230,7 @@
       <workItem from="1603073321302" duration="13647000" />
       <workItem from="1603093759425" duration="4773000" />
       <workItem from="1603110136919" duration="3980000" />
+      <workItem from="1603147044549" duration="13325000" />
     </task>
     <servers />
   </component>
@@ -279,8 +300,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/resources/js/views/Home.vue</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
